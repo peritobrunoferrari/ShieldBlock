@@ -1,0 +1,9 @@
+{
+  "nome": "[Seu nome completo]",
+  "cpf": "[Seu CPF formatado]",
+  "registro": "[Número de registro funcional]",
+  "orgao": "[Órgão / Instituição]",
+  "cargo": "[Cargo / Função]",
+  "email": "[E-mail institucional]",
+  "telefone": "[Telefone (opcional)]"
+}

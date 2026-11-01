@@ -1,0 +1,40 @@
+# Build outputs
+bin/
+obj/
+*.pdb
+*.suo
+*.user
+*.cache
+*.vspscc
+
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.VC.opendb
+
+# JetBrains
+.idea/
+
+# Perito pessoal (dados sensiveis - NUNCA commitar)
+Config/perito.json
+Config/icp.json
+
+# Logs gerados em runtime (contem dados forenses)
+Logs/*.log
+Logs/*.p7s
+Logs/*.p7s.tst
+Logs/*.pdf
+Logs/*.html
+Logs/*.json
+Logs/*.xml
+Logs/*.txt
+Logs/*.gz
+!Logs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Crash dumps
+crash_*.txt

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B5A3F1C2-7E9D-4F6A-9B2D-A1C3E5F7B9D0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ShieldBlock</RootNamespace>
+    <AssemblyName>ShieldBlock</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Resources\shield.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\Program.cs" />
+    <Compile Include="src\Core\Theme.cs" />
+    <Compile Include="src\Core\PeritoConfig.cs" />
+    <Compile Include="src\Core\ShieldBlockEngine.cs" />
+    <Compile Include="src\Core\DriveDetector.cs" />
+    <Compile Include="src\Core\PartitionAnalyzer.cs" />
+    <Compile Include="src\Core\LogSession.cs" />
+    <Compile Include="src\Core\AutoLogger.cs" />
+    <Compile Include="src\Core\SessionRegistry.cs" />
+    <Compile Include="src\Core\UsbWatcher.cs" />
+    <Compile Include="src\Core\RegistryTamperGuard.cs" />
+    <Compile Include="src\Core\FileSystemMonitor.cs" />
+    <Compile Include="src\Core\ProcessAuditor.cs" />
+    <Compile Include="src\Core\HeartbeatService.cs" />
+    <Compile Include="src\Core\ForensicToolWatcher.cs" />
+    <Compile Include="src\Icp\IcpBrasilCertificate.cs" />
+    <Compile Include="src\Icp\IcpBrasilSigner.cs" />
+    <Compile Include="src\Icp\IcpTimestampClient.cs" />
+    <Compile Include="src\Icp\IcpBrasilConfig.cs" />
+    <Compile Include="src\Utils\HashUtility.cs" />
+    <Compile Include="src\Utils\Iso8601.cs" />
+    <Compile Include="src\Utils\MachineFingerprint.cs" />
+    <Compile Include="src\Export\ExportManager.cs" />
+    <Compile Include="src\Export\PdfExporter.cs" />
+    <Compile Include="src\Export\HtmlExporter.cs" />
+    <Compile Include="src\Export\JsonExporter.cs" />
+    <Compile Include="src\Export\XmlDfrwsExporter.cs" />
+    <Compile Include="src\Export\LogOnlyExporter.cs" />
+    <Compile Include="src\UI\MainForm.cs" />
+    <Compile Include="src\UI\StatusCard.cs" />
+    <Compile Include="src\UI\UiHelpers.cs" />
+    <Compile Include="src\UI\PeritoEditDialog.cs" />
+    <Compile Include="src\UI\HistoryPanel.cs" />
+    <Compile Include="src\UI\IcpBrasilDialog.cs" />
+    <Compile Include="src\UI\ShieldLogo.cs" />
+    <Compile Include="src\UI\SplashAboutForm.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="Config\perito.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Shieldpericias.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+        <None Include="Resources\shield.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+<None Include="Resources\shield_logo_black.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\shield_logo_large.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\shield_logo_small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
