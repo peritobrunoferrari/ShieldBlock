@@ -69,9 +69,21 @@ Projetado para peritos criminais, investigadores digitais, instituições de per
 
 ## 📸 Screenshots
 
-| Splash + Créditos | Dashboard | Audit Trail |
+| Splash + Créditos | Dashboard | Audit Trail (LOGS) |
 |---|---|---|
 | ![Splash](docs/screenshots/splash.png) | ![Dashboard](docs/screenshots/dashboard.png) | ![Audit Trail](docs/screenshots/logs.png) |
+
+| Partições e Discos Físicos | Histórico de Sessões |
+|---|---|
+| ![Partições](docs/screenshots/particoes.png) | ![Histórico](docs/screenshots/historico.png) |
+
+| Exportar (Perito + Fingerprint) | Editar Perito |
+|---|---|
+| ![Exportar](docs/screenshots/exportar.png) | ![Editar Perito](docs/screenshots/editar-perito.png) |
+
+| Relatório HTML - Metadados e Perito | Relatório HTML - Audit Trail |
+|---|---|
+| ![Relatório HTML](docs/screenshots/relatorio-html.png) | ![Relatório Audit Trail](docs/screenshots/relatorio-audit-trail.png) |
 
 ## 🚀 Instalação
 
