@@ -69,11 +69,9 @@ Projetado para peritos criminais, investigadores digitais, instituições de per
 
 ## 📸 Screenshots
 
-> _Adicione screenshots em `docs/screenshots/` e referencie aqui_
-
 | Splash + Créditos | Dashboard | Audit Trail |
 |---|---|---|
-| `docs/screenshots/splash.png` | `docs/screenshots/dashboard.png` | `docs/screenshots/logs.png` |
+| ![Splash](docs/screenshots/splash.png) | ![Dashboard](docs/screenshots/dashboard.png) | ![Audit Trail](docs/screenshots/logs.png) |
 
 ## 🚀 Instalação
 
