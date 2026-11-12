@@ -8,7 +8,6 @@
 - E-mail: bruno@shieldpericias.com.br · peritodigitalexpert@gmail.com
 - LinkedIn: [linkedin.com/in/ferrari-bruno](https://www.linkedin.com/in/ferrari-bruno)
 - Instagram: [@peritobrunoferrari](https://www.instagram.com/peritobrunoferrari/)
-- Currículo e portfólio: https://brunoenricomoroferrari.netlify.app/
 
 ## Parceria
 

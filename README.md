@@ -212,7 +212,6 @@ Para **licença comercial** (uso em software proprietário, revenda, SaaS), entr
 - ✉️ bruno@shieldpericias.com.br · peritodigitalexpert@gmail.com
 - 💼 LinkedIn: [linkedin.com/in/ferrari-bruno](https://www.linkedin.com/in/ferrari-bruno)
 - 📸 Instagram: [@peritobrunoferrari](https://www.instagram.com/peritobrunoferrari/)
-- 🌐 Currículo e portfólio: [brunoenricomoroferrari.netlify.app](https://brunoenricomoroferrari.netlify.app/)
 
 **Parceria:** [Shield Perícias Digitais](https://shieldpericias.com.br) — contato@shieldpericias.com.br
 
