@@ -32,7 +32,7 @@ echo.
 REM Configura identidade (local - so neste repo)
 echo [...] Configurando identidade do commit...
 git config --local user.name  "Bruno Enrico Moro Ferrari"
-git config --local user.email "peritodigitalexpert@gmail.com"
+git config --local user.email "bruno@shieldpericias.com.br"
 echo [OK] Identidade configurada
 
 REM init - sempre remove .git vazia e cria do zero

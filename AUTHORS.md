@@ -5,7 +5,7 @@
 **Bruno Enrico Moro Ferrari**
 - Perito Criminal — Polícia Científica de SP
 - Especialista em Computação Forense
-- E-mail: bruno@shieldpericias.com.br · peritodigitalexpert@gmail.com
+- E-mail: bruno@shieldpericias.com.br
 - LinkedIn: [linkedin.com/in/ferrari-bruno](https://www.linkedin.com/in/ferrari-bruno)
 - Instagram: [@peritobrunoferrari](https://www.instagram.com/peritobrunoferrari/)
 

@@ -209,7 +209,7 @@ Para **licença comercial** (uso em software proprietário, revenda, SaaS), entr
 **Bruno Enrico Moro Ferrari**
 - Perito Criminal — Polícia Científica de SP
 - Especialista em Computação Forense
-- ✉️ bruno@shieldpericias.com.br · peritodigitalexpert@gmail.com
+- ✉️ bruno@shieldpericias.com.br
 - 💼 LinkedIn: [linkedin.com/in/ferrari-bruno](https://www.linkedin.com/in/ferrari-bruno)
 - 📸 Instagram: [@peritobrunoferrari](https://www.instagram.com/peritobrunoferrari/)
 
